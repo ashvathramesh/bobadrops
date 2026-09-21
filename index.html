@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashvath | Boba Drops Portfolio</title>
+  <style>
+    body {
+      background-color: #121016;
+      color: #e6e1ee;
+      font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 24px;
+    }
+
+    .wrapper {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 20px;
+      border-bottom: 2px dashed #3a3247;
+      margin-bottom: 35px;
+    }
+
+    .site-brand {
+      font-size: 1.4rem;
+      font-weight: 900;
+      letter-spacing: 2px;
+      color: #e2b0ff;
+    }
+
+    nav a {
+      color: #bfa8d8;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: #ffca85;
+      text-decoration: underline;
+    }
+
+    .intro-block {
+      background-color: #1a1622;
+      border: 2px solid #3a3247;
+      border-radius: 8px;
+      padding: 28px;
+      margin-bottom: 35px;
+    }
+
+    .greeting-tag {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #ffca85;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    h1 {
+      font-size: 2.1rem;
+      color: #ffffff;
+      margin-bottom: 12px;
+      font-family: 'Chalkboard SE', 'Comic Sans MS', sans-serif;
+    }
+
+    .intro-block p {
+      color: #c4b8d4;
+      font-size: 1.05rem;
+      margin-bottom: 20px;
+    }
+
+    .action-btn {
+      display: inline-block;
+      background-color: #ffca85;
+      color: #121016;
+      padding: 10px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 0.95rem;
+    }
+
+    .action-btn:hover {
+      background-color: #e2b0ff;
+    }
+
+    .section-heading {
+      font-size: 1.1rem;
+      letter-spacing: 2px;
+      color: #e2b0ff;
+      margin-bottom: 18px;
+      text-transform: uppercase;
+    }
+
+    .work-section {
+      margin-bottom: 35px;
+    }
+
+    .project-box {
+      background-color: #1a1622;
+      border-left: 4px solid #e2b0ff;
+      border-top: 1px solid #2d2638;
+      border-right: 1px solid #2d2638;
+      border-bottom: 1px solid #2d2638;
+      border-radius: 0 8px 8px 0;
+      padding: 22px;
+    }
+
+    .project-box h3 {
+      font-size: 1.3rem;
+      color: #ffffff;
+      margin-bottom: 6px;
+    }
+
+    .project-box p {
+      color: #b4a6ca;
+      font-size: 0.98rem;
+      margin-bottom: 14px;
+    }
+
+    .tech-stack {
+      margin-bottom: 16px;
+      font-size: 0.85rem;
+      color: #ffca85;
+      font-weight: 700;
+    }
+
+    .repo-link {
+      color: #ffca85;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+
+    .repo-link:hover {
+      text-decoration: underline;
+    }
+
+    .boba-card {
+      background-color: #1a1622;
+      border: 2px solid #3a3247;
+      border-radius: 8px;
+      padding: 28px;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .boba-card h2 {
+      color: #ffffff;
+      font-size: 1.7rem;
+      margin-bottom: 18px;
+      font-family: 'Chalkboard SE', 'Comic Sans MS', sans-serif;
+    }
+
+    .boba-img {
+      max-width: 220px;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 1px solid #3a3247;
+    }
+
+    footer {
+      text-align: center;
+      padding-top: 20px;
+      color: #8c7f9e;
+      font-size: 0.9rem;
+      border-top: 2px dashed #3a3247;
+    }
+
+    footer a {
+      color: #ffca85;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <header>
+      <div class="site-brand">ASHVATH</div>
+      <nav>
+        <a href="#about">Intro</a>
+        <a href="#projects">Work</a>
+        <a href="#boba-section">Boba</a>
+        <a href="mailto:ashvath.ramesh@warriorlife.net">Contact</a>
+      </nav>
+    </header>
+
+    <section id="about" class="intro-block">
+      <div class="greeting-tag">Welcome</div>
+      <h1>Hello, I'm Ashvath</h1>
+      <p>This is my Boba Drops page. I'm a high school developer and I really like coding. I like frontend coding of apps and websites but backend is also pretty nice. I'm involved in my school's FRC team working on the software.</p>
+      <a href="#projects" class="action-btn">Explore My Projects ↓</a>
+    </section>
+
+    <section id="projects" class="work-section">
+      <div class="section-heading">Featured Work</div>
+      <div class="project-box">
+        <h3>ACTS Project</h3>
+        <p>My web application project built using HTML & CSS elements.</p>
+        <div class="tech-stack">Tags: HTML & CSS • Web App</div>
+        <a href="[CHECK AND UPDATE]" target="_blank" class="repo-link">View Repository on GitHub →</a>
+      </div>
+    </section>
+
+    <section id="boba-section" class="boba-card">
+      <h2>can i have boba please </h2>
+      <img src="[TO UPDATE]" alt="Boba Tea" class="boba-img">
+    </section>
+
+    <footer>
+      <p>Made by Ashvath • <a href="mailto:ashvath.ramesh@warriorlife.net">ashvath.ramesh@warriorlife.net</a></p>
+    </footer>
+  </div>
+
+</body>
+</html>
